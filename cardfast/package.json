@@ -1,0 +1,18 @@
+{
+  "name": "cardfast",
+  "version": "1.0.0",
+  "description": "api de pagamento com cartao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "author": "Rogerio Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "express-validator": "^5.0.1"
+  }
+}

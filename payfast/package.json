@@ -1,0 +1,30 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "um gatway para pagamento atraz de recursos http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "Rogerio Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "express-validator": "^5.0.1",
+    "memcached": "^2.2.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "restify": "^6.3.4",
+    "restify-clients": "^2.0.0",
+    "soap": "^0.23.0",
+    "winston": "^2.4.0"
+  }
+}
